@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 10vh;
+    background-color: hsl(89, 43%, 51%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: 2px 4px 4px #eea7a7;
+}
+.head h1{
+    color: #fff;
+}
+.search{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input[type="text"]{
+    width: 200px;
+    height: 5vh;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 4px;
+}
+.search button{
+    margin-left: 1%;
+    width: 150px;
+    height: 5vh;
+    background-color: rgb(24, 229, 99);
+}
+#weth{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.weather{
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 2%;
+}
+.weather h1{
+    font-size: 42px;
+    margin-bottom: 10%;
+}
+.m1{
+    display: flex;
+    border-bottom: 1px dashed rgb(18, 192, 55);
+}
+.m1 h1{
+    font-size: 42px;
+}
+.m2{
+    margin-top: 5px; 
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 3%;
+    text-align: center;
+}
+td p{
+    color: gray;
+}
